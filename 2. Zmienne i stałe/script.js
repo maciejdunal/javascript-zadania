@@ -1,19 +1,35 @@
-//Zadanie 1:
+//Exercise 1
 
-console.log("Maciej");
+//value
+var value = 2;
+console.log(value)
 
-//Zadanie 2:
+//string
+let word = "someString";
 
-console.log(12+32);
-console.log(52/16);
-console.log(5*2);
+//value + string
+console.log(2 +""+ word)
 
-// Zadanie 3:
+//logical value
+var a = 3;
+var b = -2;
 
-console.log("Hello World");
-//console.log(Hello World);
-//console.log("Hello World);
-            
-//W punkcie 1 pojawia się string
-//W punkcie 2 pojawia się błąd bo nie ma takiej zmiennej
-//W punkcie 3 pojawia się błąd bo brakuje cudzysłowa
+console.log(a > 0 || b > 0);
+
+//special value
+
+var svalue = Math.sqrt(-1) // >NaN
+console.log(svalue)
+a
+//Exercise 2
+var value1 = 1;
+var value2 = 5;
+var sum = 0;
+sum = value1 + value2;
+console.log(sum)
+
+//Exercise 3
+
+var value99;
+console.log(value99);
+//undefined ponieważ zadeklarowana zmienna nie otrzymała żadnej wartości
