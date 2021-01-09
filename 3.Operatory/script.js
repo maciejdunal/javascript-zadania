@@ -1,19 +1,50 @@
-//Zadanie 1:
+//Exercise 1
+var value1 = false;
+var value2 = false;
 
-console.log("Maciej");
+console.log(value1 == value2);
 
-//Zadanie 2:
+//Exercise 2
 
-console.log(12+32);
-console.log(52/16);
-console.log(5*2);
+var number1 = 14;
+var number2 = 56;
+var moduloResult = 0;
+moduloResult = number2 % number1;
+console.log(moduloResult);
 
-// Zadanie 3:
+//Exercise 3
 
-console.log("Hello World");
-//console.log(Hello World);
-//console.log("Hello World);
-            
-//W punkcie 1 pojawia się string
-//W punkcie 2 pojawia się błąd bo nie ma takiej zmiennej
-//W punkcie 3 pojawia się błąd bo brakuje cudzysłowa
+let word1 = "Woda";
+let word2 = "Muszynianka";
+
+let stringResult = "";
+
+stringResult = word1 + word2;
+
+console.log(stringResult);
+
+//Exercise 4:
+
+var someNumber = 12345;
+var someString ="12345";
+
+console.log(someNumber == someString);
+console.log(someNumber === someString);
+
+//Exercise 5:
+
+var counter = 1604;
+console.log(counter); //1604
+counter++;
+console.log(counter); //1605
+counter--;
+console.log(counter); //1604
+
+//Exercise 6:
+
+var value1 = 2;
+var value2 = 6;
+var result = null;
+
+result = value1 > value2
+console.log(result)
